@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayı Tahmin Oyunu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+           <h1 class="kazan"></h1>
+           <h1> Sayı Tahmin Et !</h1>
+           <p class="beetween">(1 ile 20 arası)</p>
+           <button class="again">Tekrar Başlat</button>
+           <div class="number">?</div>
+    </header>
+    <main>
+    <section class="left">
+        <p class="tahminc">TAHMİN</p>
+        <input type="number" min="1" max="20" class="guess">
+        <button class="btn">Kontrol Et</button>
+    </section>
+    <section class="right">
+    <div class="p-ler">
+    <p class="message" >Tahmin Ediliyor...</p>
+    <p class="haksayısı">Kalan hak : 5 </p>
+    
+    <i id="yıldız" class="fa-solid fa-star"></i> <p class="score">Skor : 0 </p>
+    <p class="ayrac">---------------------------</p>
+    <p class="yuksek-score"> En Yüksek Skor : 0</p>
+</section>
+</div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
